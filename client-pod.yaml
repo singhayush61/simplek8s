@@ -6,7 +6,7 @@ metadata:
     component: web
 spec:
   containers:
-    - name: client-container
+    - name: client
       image: ayushsingh0/multi-client
       ports:
         - containerPort: 3000
